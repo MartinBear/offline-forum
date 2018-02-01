@@ -27,5 +27,4 @@ describe('test comments', () =>{
     shallowWrap.instance().removeComment();
     expect(api.removeComment).toHaveBeenCalled();
   });
-
 });
